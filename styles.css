@@ -1,0 +1,10 @@
+p.error.succ{
+    color: rgb(52, 248, 62);
+}
+p.error{
+    color: blue;
+} 
+div .error{
+    color: purple;
+    font-size: x-large ;
+}

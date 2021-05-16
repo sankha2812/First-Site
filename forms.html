@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+        <h1>Html Form.</h1>
+        <form>
+            <label for="username">Create username:</label>
+            <input type="text" id="username" name="username" placeholder="enter username" required>
+            <br><br>
+            <label for="email">Enter email:</label>
+            <input type="email" id="email" name="email" placeholder="enter email" required>
+            <br><br>
+            <label for="password">Create password:</label>
+            <input type="password" id="password" name="password" maxlength="8" placeholder="must be less or equal to 8 charachters" required>
+
+            <br><br>
+            <label for="sec question">Choose security question:</label>
+            <select name="sec question" id="sec question" >
+                <option value="q1">What is your fav color?</option>
+                <option value="q2">what is your birthplace?</option>
+                <option value="q3">what is your nick name?</option>
+            </select>
+            <br><br>
+
+            <label for="ans">Type your answer</label>
+            <input type="text" name="ans" id="ans" required>
+            <br><br>
+
+            <p>Choose your age:</p>
+            <input type="radio" name="age" id="child" value="0-12" checked>
+            <label for="child"> <em>upto 12</em> </label>
+            <input type="radio" name="age" id="teen" value="13-19">
+            <label for="teen"> <em>13-19</em> </label>
+            <input type="radio" name="age" id="adult" value="20+">
+            <label for="adult"> <em>20+</em> </label>
+            <br><br>
+
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"><br><br>
+
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            
+            <p>Write a comments.</p>
+            <!-- <br> -->
+            <textarea name="sug" id="sug" cols="30" rows="10" placeholder="put down yout comments"></textarea>
+            <br>
+            <input type="submit">
+            <input type="button" onclick="alert('Bingo!!')" value="Explore">
+        </form>
+    </body>
+</html>
